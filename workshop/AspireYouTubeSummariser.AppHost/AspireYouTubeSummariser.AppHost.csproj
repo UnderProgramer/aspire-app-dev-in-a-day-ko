@@ -17,10 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\frontend\AspireYouTubeSummariser.WebApp.csproj" />
-    <ProjectReference Include="..\backend\AspireYouTubeSummariser.ApiApp.csproj" />
-    <ProjectReference Include="..\frontend\AspireYouTubeSummariser.WebApp.csproj" />
-    <ProjectReference Include="..\backend\AspireYouTubeSummariser.ApiApp.csproj" />
+    <ProjectReference Include="..\AspireYouTubeSummariser.WebApp\AspireYouTubeSummariser.WebApp.csproj" />
+    <ProjectReference Include="..\AspireYouTubeSummariser.ApiApp\AspireYouTubeSummariser.ApiApp.csproj" />
+    <ProjectReference Include="..\AspireYouTubeSummariser.WebApp\AspireYouTubeSummariser.WebApp.csproj" />
+    <ProjectReference Include="..\AspireYouTubeSummariser.ApiApp\AspireYouTubeSummariser.ApiApp.csproj" />
     <ProjectReference Include="..\AspireYouTubeSummariser.ServiceDefaults\AspireYouTubeSummariser.ServiceDefaults.csproj" />
   </ItemGroup>
 
