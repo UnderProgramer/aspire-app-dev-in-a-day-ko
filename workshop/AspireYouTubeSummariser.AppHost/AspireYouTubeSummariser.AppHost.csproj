@@ -21,6 +21,7 @@
     <ProjectReference Include="..\backend\AspireYouTubeSummariser.ApiApp.csproj" />
     <ProjectReference Include="..\frontend\AspireYouTubeSummariser.WebApp.csproj" />
     <ProjectReference Include="..\backend\AspireYouTubeSummariser.ApiApp.csproj" />
+    <ProjectReference Include="..\AspireYouTubeSummariser.ServiceDefaults\AspireYouTubeSummariser.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>
