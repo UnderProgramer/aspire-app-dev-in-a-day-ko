@@ -12,12 +12,13 @@
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="$(AspireVersion)" />
-    <PackageReference Include="Aspire.Hosting.Redis" Version="$(AspireVersion)" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="8.1.0" />
+    <PackageReference Include="Aspire.StackExchange.Redis.OutputCaching" Version="8.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AspireYouTubeSummariser.WebApp\AspireYouTubeSummariser.WebApp.csproj" />
-    <ProjectReference Include="..\AspireYouTubeSummariser.ApiApp\AspireYouTubeSummariser.ApiApp.csproj" />
+    <ProjectReference Include="..\frontend\AspireYouTubeSummariser.WebApp.csproj" />
+    <ProjectReference Include="..\backend\AspireYouTubeSummariser.ApiApp.csproj" />
     <ProjectReference Include="..\frontend\AspireYouTubeSummariser.WebApp.csproj" />
     <ProjectReference Include="..\backend\AspireYouTubeSummariser.ApiApp.csproj" />
   </ItemGroup>
